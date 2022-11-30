@@ -1,7 +1,7 @@
-# JavaScriptMas2022
+# JavaScriptMas2022 🎄
 24 days of JavaScript challenges from Scrimba
 
-## What is JavaScriptMas?
+## What is JavaScriptMas? 🎁
 This is a chance for developers to level up their JavaScript skills with daily coding challenges from December 1st to 24th. There are daily prizes as well as a Grand Prize. Participants can also review other people’s code for a second chance to win.
 
 ## The Challenges
