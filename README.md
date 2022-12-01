@@ -5,7 +5,10 @@
 This is a chance for developers to level up their JavaScript skills with daily coding challenges from December 1st to 24th. There are daily prizes as well as a Grand Prize. Participants can also review other people’s code for a second chance to win.
 
 ## The Challenges
-- Day 1 - []()
+
+Below are links to my solutions on Scrimba.
+
+- Day 1 - [Panic Function! 😱](https://scrimba.com/scrim/co96646c89c3586524a6b7f75)
 - Day 2 - []()
 - Day 3 - []()
 - Day 4 - []()
