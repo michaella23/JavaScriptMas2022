@@ -10,8 +10,8 @@ Below are links to my solutions on Scrimba.
 
 - Day 1 - [Panic Function! 😱](https://scrimba.com/scrim/co96646c89c3586524a6b7f75)
 - Day 2 - [🕵️ Totally Private Data Farm](https://scrimba.com/scrim/co2b94c42867eae3e1e56d583)
-- Day 3 - []()
-- Day 4 - []()
+- Day 3 - [🥐 Favorite Foods](https://scrimba.com/scrim/co22b4767a4f7c40dd9c7f37d)
+- Day 4 - [🤫 Shh... Whispering Function](https://scrimba.com/scrim/coc924780a45744007a4c1c66)
 - Day 5 - []()
 - Day 6 - []()
 - Day 7 - []()
