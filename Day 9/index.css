@@ -27,6 +27,7 @@ main {
     height: 50%;
     background-color: crimson;
     color: #D1B02Acc;
+    text-shadow: 1px 1px 1px white;
     display: flex;
     flex-direction: column;
     justify-content: center;
