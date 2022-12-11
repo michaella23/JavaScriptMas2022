@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.hero {
+    height: 50%;
+    background-color: #b3152a;
+    color: #cdcdcd;
+    text-shadow: 1px 1px 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+.hero-img {
+    background-image: url("xmas-alien.png"); /* image generated with StarryAI */
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    /* margin-top: -2em; */
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+#translate-btn {
+    font-weight: bold;
+    background-color: #cdcdcd;
+    color: #454545;
+    box-shadow: -2px -2px 5px #454545aa;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 50px;
+    width: 250px;
+}
+
+@media only screen and (min-width: 500px) {
+    main {
+        margin-top: 80px;
+        max-width: 800px;
+        flex-direction: row;
+    }
+    
+    .hero, .hero-img {
+        width: 50%;
+        height: 75vh;
+    }
+    
+    .hero-img {
+        margin: 0;
+    }
+}
