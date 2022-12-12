@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.5rem;
+    font-family: 'La Belle Aurore', cursive;
+    text-align: center;
+}
+
+body {
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #71a880;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #ab354b;
+}
+
+.tablecloth {
+    width: 95%;
+    height: 60vh;
+    max-width: 450px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #ab354b;
+    background: linear-gradient(115deg, #ab354bff,#1b5b2fff);
+}
+
+#menu { 
+    background-color: white;
+    border: 10px solid #56c6cc88;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food {
+    font-size: 2rem;
+    margin: 0.15em;
+    bottom: 0;
+}
