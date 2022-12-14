@@ -14,8 +14,8 @@ const emojis = {
     "mouse": "🐁",
     "stockings": "🧦",
     "santa": "🎅",
-    "children": "💏",
-    "beds": "🛏",
+    "children": "🧒🧒🧒",
+    "beds": "🛏🛏",
     "sugar_plums": "🫐",
     "poop": "💩",
     "butt": "🍑",
@@ -24,7 +24,7 @@ const emojis = {
     "snowman": "⛄",
     "halloween": "🎃",
     "turd": "💩",
-    "pee": "🟨",
+    "pee": "🟡",
     "boogers": "🦠"
 }
 
