@@ -3,12 +3,29 @@ const emojis = {
     "angry": "😠",
     "party": "🎉",
     "purple_heart": "💜",
-    "cat":   "🐱",
-    "dog":   "🐕",
+    "cat": "🐱",
+    "dog": "🐕",
     "green_heart": "💚",
     "red_heart": "❤️",
     "black_heart": "🖤",
-    "white_heart": "🤍"
+    "white_heart": "🤍",
+    "christmas": "🎄",
+    "house": "🏠",
+    "mouse": "🐁",
+    "stockings": "🧦",
+    "santa": "🎅",
+    "children": "💏",
+    "beds": "🛏",
+    "sugar_plums": "🫐",
+    "poop": "💩",
+    "butt": "🍑",
+    "chicken": "🐔",
+    "pants": "👖",
+    "snowman": "⛄",
+    "halloween": "🎃",
+    "turd": "💩",
+    "pee": "🟨",
+    "boogers": "🦠"
 }
 
 function emojifyWord(word) {
@@ -26,6 +43,25 @@ function emojifyPhrase(phrase){
     }).join(" ");
 }
 
+const poem = document.querySelector(".poem")
+const form = document.getElementById("form")
+const nounOne = document.getElementById("noun1");
+const nounTwo = document.getElementById("noun2");
+const nounThree = document.getElementById("noun3");
+const nounFour = document.getElementById("noun4");
+const nounFive = document.getElementById("noun5");
+const nounSix = document.getElementById("noun6");
+const nounSeven = document.getElementById("noun7");
+const nounEight = document.getElementById("noun8");
+
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    poem.classList.add("margin");
+    poem.textContent = `Twas the night before ${emojifyWord(nounOne.value)}, when all through the ${emojifyWord(nounTwo.value)} not a creature was stirring, not even a ${emojifyWord(nounThree.value)}. The ${emojifyWord(nounFour.value)} were hung by the chimney with care, in hopes that ${emojifyWord(nounFive.value)} soon would be there. The ${emojifyWord(nounSix.value)} were nestled all snug in their ${emojifyWord(nounSeven.value)}, while visions of ${emojifyWord(nounEight.value)} danced in their heads.`;
+})
+
+
 // Test cases
 // console.log(emojifyWord(":heart:"));
 // console.log(emojifyWord(":flower:"));
@@ -42,7 +78,7 @@ function renderPhrase(phrase) {
 // Test case
 // renderPhrase("Dammit, Bobby!");
 
-renderPhrase(emojifyPhrase("I :white_heart: JavaScriptmas!"));
-renderPhrase(emojifyPhrase("I :red_heart: JavaScriptmas!"));
-renderPhrase(emojifyPhrase("I :green_heart: JavaScriptmas!"));
-renderPhrase(emojifyPhrase("I :black_heart: JavaScriptmas!"));
+// renderPhrase(emojifyPhrase("I :white_heart: JavaScriptmas!"));
+// renderPhrase(emojifyPhrase("I :red_heart: JavaScriptmas!"));
+// renderPhrase(emojifyPhrase("I :green_heart: JavaScriptmas!"));
+// renderPhrase(emojifyPhrase("I :black_heart: JavaScriptmas!"));
