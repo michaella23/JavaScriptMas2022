@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    max-width: 500px;
+    border: 3px solid red;
+    color: darkgreen;
+    text-shadow: 1px 1px 1px #454545;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.word {
+    display: block;
+    margin-bottom: 1em;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0 0;
+}
+
+.points {
+    width: 35px;
+    height: 22px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total {
+    margin-left: -4.5em;
+}
+
+#total-points {
+    margin-right: -4.5em;
+}
