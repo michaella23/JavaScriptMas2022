@@ -37,3 +37,7 @@ Feel free to use your emojify function from the previous exercise!
 
     Example input: "I :heart: my elephant"
     Example output: "I 💜 my elephant"
+
+## Making it Christmassy
+
+I love Mad Libs and I thought it would be fun to emojify a classic Christmas poem. Whether you're familiar with this poem or not, you can still have fun trying to fill in the blanks.
