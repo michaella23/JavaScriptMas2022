@@ -33,7 +33,7 @@ function flatten(arr) {
 
 function render(arr) {
     arr.forEach((item) => {
-        main.innerHTML += `<div>${item}</div>`;
+        main.innerHTML += `<div class="gift"s>${item}</div>`;
     })
     main.innerHTML += `<img src="pumpkin.png" alt="black & white cat in santa hat" class="pumpkin" />`
 }
