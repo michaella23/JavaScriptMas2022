@@ -30,6 +30,7 @@ h1 {
 main {
     width: 90%;
     max-width: 500px;
+    max-height: 650px;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -43,6 +44,6 @@ main {
 
 .pumpkin {
     border-radius: 50%;
-    padding: .65rem 1.6rem;
+    padding: .65rem 3rem;
     transform: scale(1.4);
 }
