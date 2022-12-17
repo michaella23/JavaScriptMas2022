@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #003400;
+    color: #cc1408; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2.3rem;
+    text-shadow: .3px .3px .3px #a7f2ac;
+    margin-bottom: 0;
+}
+
+.message {
+    font-size: .8rem;
+    font-weight: 600;
+        text-shadow: .1px .1px .1px #a7f2ac;
+}
+
+main {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    font-size: 2.5em;
+}
+
+div {
+    padding: 1rem 1.4rem;
+}
+
+.pumpkin {
+    border-radius: 50%;
+    padding: .65rem 1.6rem;
+    transform: scale(1.4);
+}
