@@ -44,6 +44,6 @@ main {
 
 .pumpkin {
     border-radius: 50%;
-    padding: .65rem 3rem;
+    padding: .85rem 2rem;
     transform: scale(1.4);
 }
