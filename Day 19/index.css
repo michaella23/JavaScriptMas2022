@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body, form {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    padding: 2em 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;  
+    color: #dedede;
+    text-shadow: 1px 1px 5px black;
+}
+
+.initial {
+    background-image: url("images/winter.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+h1, label, p {
+    background-color: rgba(128, 156, 173, .6);
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #6c8594;
+}
+
+label, p, button {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+form {
+    height: 30%;
+}
+
+button {
+    background-color: rgba(128, 156, 173, .8);
+    color: inherit;
+    text-shadow: inherit;
+    border: 1px solid #6c8594;
+    border-radius: 5px;
+    padding: .35em;
+}
+
+input {
+    margin: .4em 0 1em;
+    text-align: center;
+    padding: .25rem;
+    font-weight: bold;
+    color: #454545;
+}
+
+#winter {
+    visibility: hidden;
+}
