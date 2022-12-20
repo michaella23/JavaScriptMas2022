@@ -37,7 +37,7 @@ export default [
         genre: "christmas",
         rating: 10,
         paid: false,
-        image: "/images/tis_the_podcast.png",
+        image: "./images/tis_the_podcast.png",
         link: "https://open.spotify.com/show/1oVhOnOULzGZbRYTEBGEal?si=0Qy1QJJDS1q8K1ayBPgScw"
     },
     {
@@ -48,7 +48,7 @@ export default [
         genre: "christmas",
         rating: 7, 
         paid: false,
-        image: "/images/weird_christmas.png",
+        image: "./images/weird_christmas.png",
         link: "https://open.spotify.com/show/0UtcVW5EJ4FQLZcQG2YVbf?si=ld0Z-lciS3G42q6m413Blg"
     },
     {
@@ -77,7 +77,7 @@ export default [
         genre: "christmas",
         rating: 6, 
         paid: false,
-        image: "/images/christmas_pod.png",
+        image: "./images/christmas_pod.png",
         link: "https://open.spotify.com/show/5LrTVq97jQ4tkkjQhbtSAX?si=QYrsLyXiQUWn5m9PVD1s3Q"
     },
     {
@@ -88,7 +88,7 @@ export default [
         genre: "christmas",
         rating: 8,
         paid: false,
-        image: "/images/christmas_past.png",
+        image: "./images/christmas_past.png",
         link: "https://open.spotify.com/show/0EPXXUFnhfKGp70FCQTZdO?si=1EzUnvjPSrS_wmFhECLpOg"
     },
     {
