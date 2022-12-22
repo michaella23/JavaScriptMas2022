@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 1rem;
+    background-image: url("images/carpet.jpeg");
+    color: white;
+}
+
+h1, h2 {
+    background: rgba(77, 107, 71, .75);
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 1.75em;
+}
+
+.table {
+   font-size: 3.4rem;
+   background-image: url('images/poinsettia.jpeg');
+   color: white;
+   font-weight: bold;
+   border-radius: 10px;
+   padding: 0.35em;
+   width: clamp(50px, 25vw, 100px);
+   height: clamp(50px, 25vw, 100px);
+   display: grid;
+   place-content: center;
+   border: 3px solid white;
+}
