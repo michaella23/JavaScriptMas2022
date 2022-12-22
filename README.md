@@ -1,4 +1,4 @@
-# JavaScriptmas 2022 🎄
+<!-- # JavaScriptmas 2022 🎄 -->
 24 days of JavaScript challenges from Scrimba
 
 ## What is JavaScriptmas? 🎁
