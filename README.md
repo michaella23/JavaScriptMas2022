@@ -29,7 +29,7 @@ Below are links to my solutions on Scrimba.
 - Day 19 - [📆 Century From Year](https://scrimba.com/scrim/cz2w9Gh9)
 - Day 20 - [🎙️ Find Free (Christmas) Podcasts](https://scrimba.com/scrim/coe6f462e81d71c76614a7239)
 - Day 21 - [💻 Definitely Not FizzBuzz](https://scrimba.com/scrim/coe0c469ca45e19abac60fbcf)
-- Day 22 - []()
+- Day 22 - [🍴 Ready Tables](https://scrimba.com/scrim/co7cc4ea3920f7d8cc1b8dd0b)
 - Day 23 - []()
 - Day 24 - []()
 
